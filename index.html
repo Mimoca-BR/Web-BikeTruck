@@ -237,7 +237,7 @@
             <div class="table-top"><h3>Programação regular</h3><small>Horários locais de Brasília · sujeitos a confirmação com a equipe</small></div>
             <div class="slot"><div class="weekday">Terça</div><div><div class="place">Americas Park / Mundo Novo</div><div class="hour"><svg class="icon"><use href="#i-clock"></use></svg> 9h às 17h</div></div></div>
             <div class="slot hot"><div class="weekday">Quarta</div><div><div class="place">Americas Park / Mundo Novo</div><div class="hour"><svg class="icon"><use href="#i-clock"></use></svg> 9h às 17h</div><div class="place" style="margin-top:14px">Le Parc</div><div class="hour"><svg class="icon"><use href="#i-clock"></use></svg> 10h às 16h · <b>segunda base simultânea</b></div></div></div>
-            <div class="slot"><div class="weekday">Quinta</div><div><div class="place">1ª e 3ª quinta: Riomar Classic</div><div class="place" style="margin-top:9px">2ª e 4ª quinta: Santa Mônica Jardins</div><div class="hour"><svg class="icon"><use href="#i-clock"></use></svg> Horário sob consulta</div></div></div>
+            <div class="slot"><div class="weekday">Quinta</div><div><div class="place">1ª e 3ª quinta: Riomar Classic</div><div class="place" style="margin-top:9px">2ª e 4ª quinta: Santa Mônica Jardins</div><div class="hour"><svg class="icon"><use href="#i-clock"></use></svg> 9h às 17h</div></div></div>
             <div class="slot"><div class="weekday">Sexta</div><div><div class="place">Americas Park / Mundo Novo</div><div class="hour"><svg class="icon"><use href="#i-clock"></use></svg> 9h às 17h</div></div></div>
             <div class="slot"><div class="weekday">Sábado</div><div><div class="place">Americas Park / Mundo Novo</div><div class="hour"><svg class="icon"><use href="#i-clock"></use></svg> 8h30 às 15h</div></div></div>
             <div class="schedule-foot">Segundas, domingos e eventuais 5ªs quintas-feiras: <strong>consulte disponibilidade pelo WhatsApp.</strong> A programação pode sofrer ajustes. Em caso de dúvida, confirme antes de ir.</div>
@@ -265,13 +265,13 @@
           <article class="location-card">
             <div class="location-top"><span class="loc-pin"><svg class="icon"><use href="#i-pin"></use></svg></span><div><span class="loc-kicker">1ª e 3ª quinta-feira</span><h3>Riomar Classic</h3></div></div>
             <p class="location-address">Av. Rosauro Estelita, 155<br>Barra da Tijuca, Rio de Janeiro – RJ<br>22793-319</p>
-            <div class="location-hours"><span class="pill">1ª e 3ª quinta · confirmar horário</span></div>
+            <div class="location-hours"><span class="pill">1ª e 3ª quinta · 9h–17h</span></div>
             <div class="location-actions"><a class="btn btn-outline btn-sm" href="https://maps.google.com/?q=-22.998196,-43.405384" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-pin"></use></svg> Abrir mapa</a><a class="btn btn-dark btn-sm" data-wa="Vitor" data-message="Olá, Vitor! Gostaria de informações para atendimento no Riomar Classic, na 1ª ou 3ª quinta-feira." href="https://wa.me/5521971767285" target="_blank" rel="noopener noreferrer">WhatsApp <svg class="icon"><use href="#i-arrow"></use></svg></a></div>
           </article>
           <article class="location-card">
             <div class="location-top"><span class="loc-pin"><svg class="icon"><use href="#i-pin"></use></svg></span><div><span class="loc-kicker">2ª e 4ª quinta-feira</span><h3>Santa Mônica Jardins</h3></div></div>
             <p class="location-address">R. Sem Denominação, 1014<br>Barra da Tijuca, Rio de Janeiro – RJ<br>22793-002</p>
-            <div class="location-hours"><span class="pill">2ª e 4ª quinta · confirmar horário</span></div>
+            <div class="location-hours"><span class="pill">2ª e 4ª quinta · 9h–17h</span></div>
             <div class="location-actions"><a class="btn btn-outline btn-sm" href="https://maps.google.com/?q=-22.998949,-43.399094" target="_blank" rel="noopener noreferrer"><svg class="icon"><use href="#i-pin"></use></svg> Abrir mapa</a><a class="btn btn-dark btn-sm" data-wa="Vitor" data-message="Olá, Vitor! Gostaria de informações para atendimento no Santa Mônica Jardins, na 2ª ou 4ª quinta-feira." href="https://wa.me/5521971767285" target="_blank" rel="noopener noreferrer">WhatsApp <svg class="icon"><use href="#i-arrow"></use></svg></a></div>
           </article>
         </div>
@@ -340,7 +340,7 @@
         if(d===2||d===5){title.textContent='Americas Park / Mundo Novo';description.textContent='Atendimento das 9h às 17h.';}
         else if(d===3){title.textContent='Duas bases na quarta-feira';description.textContent='Americas Park / Mundo Novo: 9h às 17h. Le Parc: 10h às 16h.';extra.textContent='Atendimentos simultâneos em locais diferentes.';}
         else if(d===6){title.textContent='Americas Park / Mundo Novo';description.textContent='Atendimento das 8h30 às 15h.';}
-        else if(d===4){title.textContent='Quinta-feira por semana do mês';description.textContent='1ª e 3ª quinta: Riomar Classic. 2ª e 4ª quinta: Santa Mônica Jardins.';extra.textContent='Horário sob consulta. Na 5ª quinta-feira, consulte disponibilidade.';if(d===today){if(nth===1||nth===3)title.textContent='Hoje: Riomar Classic';if(nth===2||nth===4)title.textContent='Hoje: Santa Mônica Jardins';if(nth===5)title.textContent='Hoje: confirme disponibilidade';}}
+        else if(d===4){title.textContent='Quinta-feira por semana do mês';description.textContent='1ª e 3ª quinta: Riomar Classic. 2ª e 4ª quinta: Santa Mônica Jardins. Horário: 9h às 17h.';extra.textContent='Na 5ª quinta-feira, consulte disponibilidade.';if(d===today){if(nth===1||nth===3)title.textContent='Hoje: Riomar Classic';if(nth===2||nth===4)title.textContent='Hoje: Santa Mônica Jardins';if(nth===5)title.textContent='Hoje: confirme disponibilidade';}}
         else {title.textContent='Atendimento sob consulta';description.textContent='Sem base fixa anunciada para este dia. Fale com nossa equipe pelo WhatsApp.';}
       }
       chips.forEach(function(c){c.addEventListener('click',function(){selectDay(Number(c.dataset.day));});});
